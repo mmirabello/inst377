@@ -1,72 +1,58 @@
-doc {
-  background: green;
-  height: 960px;
-  width: 480px;
-}
-
-.container {
-  background-color: purple;
-  margin: 0;
-}
-
-  div {
-    color: red
-    width: 100px;
-    height: 42px;
-  }
-
-newsline {
-  font-size: 42px;
-  font-style: bold;
-  font-weight: 400;
-}
-
-.wrapper {
-  width: 60%;
-  height: 100vh;
-  width: 22vh;
-  background: grey;
-}
-
 .head {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 25px;
+  justify-items: center;
+  margin-bottom: 15px;
 }
-
 .head a,
-.head {
-  margin: 0;
+.head h1 {
+  margin: 1;
   padding: 0;
 }
-
-second_container {
-  background: pink;
-  height: 150px;
-}
-
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-
-textbox {
+.textbox {
   height: 100px;
-  width: 350px;
-  margin-bottom: 25px;
+  width: 500px;
+  margin-bottom: 15px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center
 }
-
-.green {
+.first {
   background: red;
-  cursor: pointer;
+}
+.second {
+  background: red;
 }
 
-.second {
-  background: lightblue;
+.third {
+  background: teal;
+}
+
+.hello {
+  background: lightgrey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  height: 200px;
+  width: auto;
+}
+
+body {
+  background-color: rgb(82, 78, 78);
+}
+
+.container_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
